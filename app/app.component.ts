@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import {StoreService} from './shared/store.service.ts';
 
 @Component({
   selector: 'my-app',
@@ -7,7 +6,8 @@ import {StoreService} from './shared/store.service.ts';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  constructor(public store: StoreService) {
+  constructor() {
   }
 
 }
+
